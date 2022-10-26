@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="index.js"></script>
+    <title>My Garage</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/BMW_logo.png" alt="BMW_logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CARS</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Paul's Garage</h1>
+            <p>This is my garage. It consists of different cars from the 1960s to the modern era.</p>
+            <a href="" class="hero-btn">Learn more</a>
+        </div>
+    </section>
+
+    <section class="cars">
+        <h1>Cars in my garage</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="cars-col">
+                <h3>Coupe</h3>
+                <p>BMW M2 Competiton F87<br>Toyota Supra<br>Nissan Skyline GT-R R34<br>Mazda RX-7</p>
+            </div>
+            <div class="cars-col">
+                <h3>Hatchback</h3>
+                <p>Audi S3<br>VW Golf R<br>Hyundai i30 N<br>Ford Focus RS</p>
+            </div>
+            <div class="cars-col">
+                <h3>Sedan</h3>
+                <p>Mercedes-Benz CLS<br>Cadillac CTS-V<br>Audi S6<br>BMW 7 Series</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="garage">
+        <h1>The garage</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+            <div class="garage-col">
+                <img src="./images/1994-toyota-supra-turbo.jpg" alt="1994-toyota-supra-turbo">
+                <div class="layer">
+                    <h3>TOYOTA SUPRA MK IV</h3>
+                </div>
+            </div>
+            <div class="garage-col">
+                <img src="./images/bmw_m5_cs.jpg" alt="bmw-m5-cs">
+                <div class="layer">
+                    <h3>BMW M5 CS</h3>
+                </div>
+            </div>
+            <div class="garage-col">
+                <img src="./images/BMW-M2-CS-1.jpg" alt="bmw-m2-cs">
+                <div class="layer">
+                    <h3>BMW M2 CS</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="garage-col">
+                <img src="./images/bmw-e30-m3.jpg" alt="bmw-e30-m3">
+                <div class="layer">
+                    <h3>BMW E30 M3</h3>
+                </div>
+            </div>
+            <div class="garage-col">
+                <img src="./images/BMW-E31-850CSi.jpg" alt="bmw-850-csi">
+                <div class="layer">
+                    <h3>BMW 850 CSi</h3>
+                </div>
+            </div>
+            <div class="garage-col">
+                <img src="./images/Lancia-Delta-HF-Evo-2-Edizione-Finale-1995.jpg" alt="lancia-delta-hf-evo-ii">
+                <div class="layer">
+                    <h3>LANCIA DELTA INTEGRALE EVO II</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="spotlight">
+        <h1>Spotlight</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="spotlight-col">
+                <img src="./images/bmw-m2-coupe-f87-2018-competition.jpg" alt="bmw-m2-coupe-f87-2018-competition-1">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+            </div>
+            <div class="spotlight-col">
+                <img src="./images/bmw-m2-coupe-f87-2018-competition-2.jpg" alt="bmw-m2-coupe-f87-2018-competition-1">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+            </div>
+            <div class="spotlight-col">
+                <img src="./images/bmw-m2-coupe-f87-2018-competition-1.jpg" alt="bmw-m2-coupe-f87-2018-competition-1">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h1>What our visitors say</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="./images/bmw-e30-m3.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla,
+                        eleifend faubicus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.
+                    </p>
+                    <h3>Peter Müller</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="./images/1994-toyota-supra-turbo.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla,
+                        eleifend faubicus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.
+                    </p>
+                    <h3>Hans Günther</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses<br>Anywhere From the World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla,
+            eleifend faubicus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+            
+    </section>
+
+</body>
+</html>
