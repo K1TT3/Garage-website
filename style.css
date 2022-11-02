@@ -392,10 +392,12 @@ img{
 .about-col img{
     width: 80%;
     height: 100%;
-    padding-left: 200px;
+    border-radius: 10px;
+    float: right;
 }
 .about-col h1{
     padding-top: 0;
+    font-size: 26px;
 }
 .about-col p{
     padding: 15px 0 25px;
