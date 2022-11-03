@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script defer src="index.js"></script>
+    <script defer src="src/index.js"></script>
     <title>Paul's Garage</title>
 </head>
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src="images/BMW_logo.png" alt="bmw_logo"></a>
+            <a href="index.html"><img src="src/images/BMW_logo.png" alt="bmw_logo"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="cars.html">CARS</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="src/pages/about.html">ABOUT</a></li>
+                    <li><a href="src/pages/cars.html">CARS</a></li>
+                    <li><a href="src/pages/blog.html">BLOG</a></li>
+                    <li><a href="src/pages/contact.html">CONTACT</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -31,7 +31,7 @@
             <h1>Paul's Garage</h1>
             <p>Welcome to my garage. It consists of different cars from the 1960s to the modern era.<br>
             Please join me on a tour through my favourite chapters of automotive history.</p>
-            <a href="about.html" class="hero-btn">Learn more</a>
+            <a href="src/pages/about.html" class="hero-btn">Learn more</a>
         </div>
     </section>
 
@@ -73,7 +73,7 @@
         <div class="row">
             <div class="garage-col">
                 <a href="">
-                    <img src="./images/1994-toyota-supra-turbo.jpg" alt="1994-toyota-supra-turbo">
+                    <img src="src/images/1994-toyota-supra-turbo.jpg" alt="1994-toyota-supra-turbo">
                     <div class="layer">
                         <h3>TOYOTA SUPRA MK IV</h3>
                     </div>
@@ -81,39 +81,46 @@
                 
             </div>
             <div class="garage-col">
-                <a href="cars/bmw-m5-cs.html">
-                    <img src="./images/bmw_m5_cs.jpg" alt="bmw-m5-cs">
+                <a href="src/cars/bmw-m5-cs.html">
+                    <img src="src/images/bmw_m5_cs.jpg" alt="bmw-m5-cs">
                     <div class="layer">
                         <h3>BMW M5 CS</h3>
                     </div>
                 </a>
-
             </div>
             <div class="garage-col">
-                <img src="./images/BMW-M2-CS-1.jpg" alt="bmw-m2-cs">
-                <div class="layer">
-                    <h3>BMW M2 CS</h3>
-                </div>
+                <a href="">
+                    <img src="src/images/BMW-M2-CS-1.jpg" alt="bmw-m2-cs">
+                    <div class="layer">
+                        <h3>BMW M2 CS</h3>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="row2">
             <div class="garage-col">
-                <img src="./images/bmw-e30-m3.jpg" alt="bmw-e30-m3">
-                <div class="layer">
-                    <h3>BMW E30 M3</h3>
-                </div>
+                <a href="">
+                    <img src="src/images/bmw-e30-m3.jpg" alt="bmw-e30-m3">
+                    <div class="layer">
+                        <h3>BMW E30 M3</h3>
+                    </div>
+                </a>
             </div>
             <div class="garage-col">
-                <img src="./images/BMW-E31-850CSi.jpg" alt="bmw-850-csi">
-                <div class="layer">
-                    <h3>BMW 850 CSi</h3>
-                </div>
+                <a href="">
+                    <img src="src/images/BMW-E31-850CSi.jpg" alt="bmw-850-csi">
+                    <div class="layer">
+                        <h3>BMW 850 CSi</h3>
+                    </div>
+                </a>
             </div>
             <div class="garage-col">
-                <img src="./images/Lancia-Delta-HF-Evo-2-Edizione-Finale-1995.jpg" alt="lancia-delta-hf-evo-ii">
-                <div class="layer">
-                    <h3>LANCIA DELTA INTEGRALE EVO II</h3>
-                </div>
+                <a href="">
+                    <img src="src/images/Lancia-Delta-HF-Evo-2-Edizione-Finale-1995.jpg" alt="lancia-delta-hf-evo-ii">
+                    <div class="layer">
+                        <h3>LANCIA DELTA INTEGRALE EVO II</h3>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -125,18 +132,18 @@
 
         <div class="row">
             <div class="spotlight-col">
-                <img src="./images/bmw-m2-coupe-f87-2018-competition.jpg" alt="bmw-m2-coupe-f87-2018-competition">
+                <img src="src/images/bmw-m2-coupe-f87-2018-competition.jpg" alt="bmw-m2-coupe-f87-2018-competition">
                 <h3>2 mighty 4 you</h3>
                 <p>The M2 Competition is powered by the S55, the 3 litre twin turbo inline six found in the last 
                     generation M3 and M4. It delivers 410hp and 550nm to the rear wheels.</p>
             </div>
             <div class="spotlight-col">
-                <img src="./images/bmw-m2-coupe-f87-2018-competition-2.jpg" alt="bmw-m2-coupe-f87-2018-competition-2">
+                <img src="src/images/bmw-m2-coupe-f87-2018-competition-2.jpg" alt="bmw-m2-coupe-f87-2018-competition-2">
                 <h3>Suit up</h3>
                 <p>This M2 has the carbon fiber front splitter, carbon fiber mirror caps, carbon fiber roof and the m performance bonnet.</p>
             </div>
             <div class="spotlight-col">
-                <img src="./images/bmw-m2-coupe-f87-2018-competition-1.jpg" alt="bmw-m2-coupe-f87-2018-competition-1">
+                <img src="src/images/bmw-m2-coupe-f87-2018-competition-1.jpg" alt="bmw-m2-coupe-f87-2018-competition-1">
                 <h3>Beauty from behind</h3>
                 <p>From the rear the M2 just looks stunning. It has the LCI tail lights, which I find visually more appealing then the ones from the early model.
                     Add the carbon fiber ducktail and the Akrapovic exhaust and it is a real eye catcher.
@@ -151,7 +158,7 @@
 
         <div class="row">
             <div class="testimonial-col">
-                <img src="./images/bmw-e30-m3.jpg">
+                <img src="src/images/bmw-e30-m3.jpg">
                 <div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla,
                         eleifend faubicus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.
@@ -165,7 +172,7 @@
                 </div>
             </div>
             <div class="testimonial-col">
-                <img src="./images/1994-toyota-supra-turbo.jpg">
+                <img src="src/images/1994-toyota-supra-turbo.jpg">
                 <div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla,
                         eleifend faubicus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.
@@ -183,7 +190,7 @@
 
     <section class="cta">
         <h1>We are looking forward to your visit</h1>
-        <a href="about.html" class="hero-btn">CONTACT US</a>
+        <a href="src/pages/about.html" class="hero-btn">CONTACT US</a>
     </section>
 
     <section class="footer">
