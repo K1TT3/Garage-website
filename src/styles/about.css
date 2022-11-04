@@ -124,11 +124,11 @@ nav .fa{
     background: transparent;
     position: relative;
     cursor: pointer;
+    transition: 0.25s ease-in-out;
 }
 .hero-btn:hover{
     border: 1px solid rgb(8, 126, 204); 
     background: rgb(8, 126, 204);
-    transition: 0.5s;
 }
 .blue-btn{
     border: 1px solid rgb(8, 126, 204);
