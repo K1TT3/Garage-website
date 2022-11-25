@@ -102,6 +102,25 @@ p{
 .intro-card tbody tr:nth-of-type(even){
     background-color: #dfdfdf;
 }
+.toc{
+    padding: 10px 10px;
+    background-color:#b4b4b4;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 20px;
+}
+.toc li{
+    list-style-type: none;
+}
+.toc a:link{
+    text-decoration: none;
+}
+.tocnumber{
+    font-size: 20px;
+}
+.toctext{
+    font-size: 20px;
+}
 .footer{
     width: 100%;
     text-align: center;
